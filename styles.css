@@ -1,0 +1,167 @@
+ body, html {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    user-select: none;
+    width: 2000px;
+    z-index: 9999;
+    background: linear-gradient(to top,#49a1ff,#1385ff); 
+    height: 70px;
+    position: fixed;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.581);
+    padding-left: 40px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.navbar button {
+    height: 40px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 100px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.5s ;
+}
+
+.navbar button:hover {
+    background-color: #1749fc;
+    color: white; 
+    transition: all 0.5s;
+}
+
+.navbar div {
+    margin-top: -50px;
+}
+
+#title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 70px;
+}
+
+.footer {
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    width: 1400px;
+    height: 900px;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*home_menu*/
+#home h1 {
+    font-size: 50px;
+    font-weight: 200;
+    text-shadow: 0px 0px 10px rgb(99, 99, 99)
+}
+
+
+#home h3 {
+    font-size: 20px;
+    margin-top: -30px;
+    text-shadow: 0px 0px 10px rgb(99, 99, 99)
+}
+
+#home {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#home p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#menu.home {
+    margin-left: 0px;
+    transition: all 0.5s;
+}
+/*home_menu*/
+
+
+
+/*project_menu*/
+#project {
+    text-align: center;
+    margin-top: 70px;
+}
+/*project_menu*/
+
+
+
+/*blog_menu*/
+#blog {
+    text-align: center;
+    margin-top: 70px;
+}
+/*blog_menu*/
+
+
+
+/*support_menu*/
+#support {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#support h1 {
+    font-size: 50px;
+    font-weight: 200;
+}
+/*support_menu*/
+
+
+
+/*about_menu*/
+#about {
+    text-align: center;
+    margin-top: 70px;
+}
+/*about_menu*/
+
+#menu {
+    display: block;
+    width: 9600px;
+}
+
+#menu.project {
+    margin-left: -1400px;
+    transition: all 0.5s;
+}
+
+#menu.blog {
+    margin-left: -2800px;
+    transition: all 0.5s;
+}
+
+#menu.support {
+    margin-left: -4200px;
+    transition: all 0.5s;
+}
+
+#menu.about {
+    margin-left: -5600px;
+    transition: all 0.5s;
+}
